@@ -1,0 +1,14 @@
+// Example program
+#include <iostream>
+#include <string>
+#include <cmath>
+
+
+int main()
+{
+  long long A,B;
+  std::cout << "number?\n";
+  std::cin >> A >> B;
+  std::cout << std::sqrt (A * A + B * B);
+  return 0;
+}
